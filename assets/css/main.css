@@ -15,7 +15,7 @@
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Work Sans", sans-serif;
-  --font-logo: "Coolvetica", sans-serif;
+  /* --font-logo: "Coolvetica", sans-serif; */
 }
 
 /* Colors */
@@ -30,6 +30,13 @@
 /* Smooth scroll behavior */
 :root {
   scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('../fonts/coolvetica\ crammed\ rg.woff') format('woff');
+  /* Add additional formats if needed */
+  /* You can also include fallback fonts here */
 }
 
 /*--------------------------------------------------------------
@@ -62,8 +69,11 @@ h6 {
   font-family: var(--font-primary);
 }
 
-.starbrands h1{
-  font-family: "Coolvetica", sans-serif;
+#starbrands{
+  font-family: 'Coolvetica', sans-serif;
+  font-size: 5em;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 p.containers{
@@ -2592,7 +2602,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .footer .footer-content .footer-info h3 span {
