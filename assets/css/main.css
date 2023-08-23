@@ -23,8 +23,8 @@
   /* --color-default: #364d59; */
   --color-default: #ffffff;
   --color-primary: #feb900;
-  /* --color-secondary: #52565e; */
-  --color-secondary: #ffffff;
+  --color-secondary: #52565e;
+  /* --color-secondary: #ffffff; */
 }
 
 /* Smooth scroll behavior */
@@ -67,7 +67,7 @@ h6 {
 }
 
 p.containers{
-  color: #011c36;
+  color: var(--color-secondary);
 }
 
 
@@ -79,11 +79,6 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  /* background-color: rgb(1,28,54); */
-}
-
-
 .section-header {
   text-align: center;
   padding-bottom: 70px;
@@ -93,8 +88,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   position: relative;
-  /* color: #2e3135; */
-  color: #fff;
+  color: var(--font-default);
 }
 
 .section-header h2:before,
@@ -385,7 +379,7 @@ section {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: var(--color-default);
+    color: var(--color-secondary);
     font-weight: 400;
   }
 
@@ -1363,7 +1357,7 @@ section {
   font-weight: 700;
   margin-bottom: 6px;
   font-size: 18px;
-  color: var(--color-secondary);
+  color: var(--color-default);
 }
 
 .team .member .member-info span {
@@ -2574,7 +2568,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/banner4.jpg") center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
