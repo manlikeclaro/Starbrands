@@ -23,8 +23,8 @@
   /* --color-default: #364d59; */
   --color-default: #ffffff;
   --color-primary: #feb900;
-  --color-secondary: #52565e;
-  /* --color-secondary: #ffffff; */
+  /* --color-secondary: #52565e; */
+  --color-secondary: #011c36;
 }
 
 /* Smooth scroll behavior */
@@ -564,7 +564,8 @@ section {
 
 .get-started .content h3 {
   font-size: 36px;
-  color: var(--color-secondary);
+  /* color: var(--color-secondary); */
+  color: var(--color-default);
   font-weight: 600;
   margin-bottom: 25px;
   padding-bottom: 25px;
@@ -575,12 +576,13 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 60px;
+  width: 120px;
   height: 4px;
   background: var(--color-primary);
   left: 0;
   bottom: 0;
 }
+
 
 .get-started .content p {
   font-size: 14px;
@@ -734,6 +736,7 @@ section {
   padding: 40px;
   background: #fff;
   height: 100%;
+  border-radius: 10px;
 }
 
 .services .service-item .icon {
@@ -758,6 +761,7 @@ section {
   height: 100%;
   width: 100%;
   background: #f0f1f2;
+  background: var(--color-primary);
   border-radius: 50px;
   z-index: 1;
   top: 10px;
@@ -766,7 +770,8 @@ section {
 }
 
 .services .service-item h3 {
-  color: var(--color-default);
+  /* color: var(--color-default); */
+  color: var(--color-secondary);
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
@@ -781,6 +786,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: var(--color-secondary);
 }
 
 .services .service-item .readmore {
@@ -807,7 +813,8 @@ section {
 .features .nav-link {
   padding: 15px 0;
   transition: 0.3s;
-  color: var(--color-secondary);
+  /* color: var(--color-secondary); */
+  color: var(--color-default);
   border-radius: 0;
   display: flex;
   align-items: center;
@@ -885,6 +892,11 @@ section {
 
 .features .tab-pane p:last-child {
   margin-bottom: 0;
+}
+
+.features .tab-pane img {
+  border-radius: 40px;
+  width: 90%;
 }
 
 /*--------------------------------------------------------------
@@ -1121,12 +1133,14 @@ section {
   background-size: cover;
   background-position: center center;
   min-height: 400px;
+  border-radius: 20px;
 }
 
 .alt-services h3 {
-  font-size: 28px;
+  font-size: 2.1rem;
   font-weight: 700;
-  color: var(--color-secondary);
+  /* color: var(--color-secondary); */
+  color: var(--color-default);
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1136,7 +1150,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 90px;
   height: 3px;
   background: var(--color-primary);
   left: 0;
@@ -1152,6 +1166,7 @@ section {
   align-items: center;
   justify-content: center;
   color: var(--color-primary);
+  /* color: var(--color-secondary); */
   margin-right: 25px;
   font-size: 28px;
   width: 56px;
@@ -1175,7 +1190,7 @@ section {
 }
 
 .alt-services .icon-box h4 a {
-  color: #000;
+  color: var(--color-default);
   transition: 0.3s;
 }
 
@@ -1290,6 +1305,7 @@ section {
   background: #eee;
   box-shadow: 0px 0 30px rgba(82, 86, 94, 0.05);
   padding: 30px;
+  border-radius: 10px;
 }
 
 .stats-counter .stats-item i {
@@ -1310,7 +1326,8 @@ section {
   padding: 0;
   margin: 0;
   font-family: var(--font-primary);
-  font-size: 14px;
+  color: #011c36;
+  font-size: 1.05em;
 }
 
 /*--------------------------------------------------------------
@@ -1890,7 +1907,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   inset: 0;
 }
