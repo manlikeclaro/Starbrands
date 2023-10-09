@@ -1913,12 +1913,12 @@ section {
 }
 
 .hero .container{
-  margin-top: 8%;
+  margin-top: 2%;
 }
 
 .hero .carousel {
   width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
   padding: 80px 0;
   margin: 0;
   position: relative;
@@ -1952,6 +1952,15 @@ section {
   .hero .info {
     padding: 0 50px;
   }
+}
+
+.hero .img-bg {
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: auto;
+  border-radius: 20px;
+  margin-bottom: 3rem;
 }
 
 .hero .info h2 {
