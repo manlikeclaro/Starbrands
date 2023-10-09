@@ -565,6 +565,8 @@ section {
 .get-started .img-bg {
   background-size: cover;
   background-position: center center;
+  /* width: auto;
+  height: auto; */
   min-height: 200px;
   min-width: 200px;
   border-radius: 20px;
